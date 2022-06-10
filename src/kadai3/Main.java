@@ -39,6 +39,7 @@ public class Main {
 	menu.add("汗抜き");
 
 	System.out.println("当店は" + menu.toString() + "のみオプション追加できます。");
+
     }
 
 }
