@@ -42,7 +42,7 @@ public class Main {
 
 	List<String> newmenu = List.of("ぬいぐるみクリーニング","布団クリーニング","和服クリーニング" );
 	
-	newmenu.stream().map(a -> a + "の新メニューを6月11日から始めます。").forEach(System.out::println);
+	newmenu.stream().forEach(a -> System.out.println(a + "の新メニューを6月11日から始めます。"));
 	
     }
 
