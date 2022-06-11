@@ -40,12 +40,9 @@ public class Main {
 
 	System.out.println("当店は" + menu.toString() + "のみオプション追加できます。");
 
-	List<String> newmenu = new ArrayList<>();
-	newmenu.add("ぬいぐるみクリーニング");
-	newmenu.add("布団クリーニング");
-	newmenu.add("和服クリーニング");
+	List<String> newmenu = List.of("ぬいぐるみクリーニング","布団クリーニング","和服クリーニング" );
 	
-	System.out.println("6月14日から" + newmenu.toString() + "のメニューを始めます。");
+	newmenu.stream().map(a -> a + "の新メニューを6月11日から始めます。").forEach(System.out::println);
 	
     }
 
