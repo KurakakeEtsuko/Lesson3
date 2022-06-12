@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
 public class Main {
 
     public static void main(String[] args) {
@@ -40,6 +41,10 @@ public class Main {
 
 	System.out.println("当店は" + menu.toString() + "のみオプション追加できます。");
 
+	List<String> newmenu = List.of("ぬいぐるみクリーニング","布団クリーニング","和服クリーニング" );
+	
+	newmenu.forEach(a -> System.out.println(a + "の新メニューを6月11日から始めます。"));
+	
     }
 
 }
